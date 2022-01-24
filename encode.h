@@ -1,6 +1,7 @@
 #ifndef ENCODE_H
 #define ENCODE_H
-
+#include <stdio.h>
+#include <string.h>
 #include "types.h" // Contains user defined types
 
 /* 
