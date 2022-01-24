@@ -73,3 +73,46 @@ Status open_files(EncodeInfo *encInfo)
     // No failure return e_success
     return e_success;
 }
+/* Get file size */
+uint get_file_size(FILE *fptr)
+{
+    uint size;
+    fseek(fptr,0,SEEK_END);
+    size = ftell(fptr);
+    return size;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
